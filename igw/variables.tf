@@ -3,3 +3,8 @@ variable "my_igw_name" {
     default = "testing-igw"
     description = "Name of the igw"
 }
+
+variable "my_igw_vpc" {
+    type = string
+    description = "The vpc id to which igw is going to be attached"
+}
