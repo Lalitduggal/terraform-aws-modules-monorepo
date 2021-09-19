@@ -10,3 +10,10 @@ variable "igw_id" {
     default = "igw-id"
     description = "igw id"
 }
+
+
+variable "route_for_igw_destination_cidr_block" {
+    type = string
+    default = "0.0.0.0/0"
+    description = "internet CIDR"
+}
