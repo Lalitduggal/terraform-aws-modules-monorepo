@@ -1,5 +1,5 @@
 
-variable "my_public_route_table_id" {
+variable "my_public_subnet_route_table_id" {
     type = string
     description = "Id of the public route table"
 }
