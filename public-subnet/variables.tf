@@ -9,3 +9,9 @@ variable "my_public_subnet_vpc_id" {
     type = string
     description = "vpc id where the public subnet will be created"
 }
+
+
+variable "my_public_subnet_cidr_block" {
+    type = string
+    description = "CIDR id of the public subnet"
+}
