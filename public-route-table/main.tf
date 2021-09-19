@@ -1,7 +1,7 @@
-resource "aws_route_table" "example" {
-  vpc_id = aws_vpc.example.id
+resource "aws_route_table" "my_public_route_table" {
+  vpc_id = var.my_public_route_table_vpc_id
 
   tags = {
-    Name = "example"
+    Name = var.my_public_route_table_name
   }
 }
